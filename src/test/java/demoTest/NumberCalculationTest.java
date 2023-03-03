@@ -43,7 +43,7 @@ public class NumberCalculationTest {
 	
 	@Test
 	void testMultiply() {
-		assertAll(() -> assertEquals(0, nc.multiply(1,0)), () -> assertEquals(7, nc.multiply(7,2)),
+		assertAll(() -> assertEquals(0, nc.multiply(1,0)), () -> assertEquals(14, nc.multiply(7,2)),
 				() -> assertEquals(20, nc.multiply(4,5)));
 	}
 	@Test
